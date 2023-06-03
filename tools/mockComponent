@@ -1,0 +1,9 @@
+import React, { useEffect, useState } from 'react';
+import { MyComponentProps } from './types';
+import { MyComponentWrapper } from './styles';
+
+const MyComponent = ({ isLoading }: MyComponentProps): JSX.Element => {
+    return (<MyComponentWrapper> Component loaded </MyComponentWrapper>)
+};
+
+export default MyComponent;

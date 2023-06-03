@@ -1,0 +1,8 @@
+import React, { useEffect, useState } from 'react';
+import { MyComponentWrapper } from './styles';
+
+const MyComponentSkeleton = (): JSX.Element => {
+    return (<MyComponentWrapper> ComponentSkeleton </MyComponentWrapper>)
+};
+
+export default MyComponentSkeleton;
