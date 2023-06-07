@@ -2,7 +2,7 @@
 
 This repository contains React Starter Pack
 
-Using [Evergreen](https://evergreen.segment.com/)
+Using [Ant Design](https://ant.design/)
 ## Available Scripts
 In the project directory, you can run:
 ### `npm start`
