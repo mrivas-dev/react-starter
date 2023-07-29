@@ -16,10 +16,10 @@ const updateFileVariables = (pageName) => ({
 
 const addRouterImport = (pageName) => {
   const newImport = `import ${pageName} from "../pages/${pageName}"; 
-  // Insert new import here - Please do not remove this line`;
+  /* Add new pages import here - Please do not remove this line */`;
   return ({
     files: ['src/navigation/router.tsx'],
-    from: "/* Insert new import here - Please do not remove this line */",
+    from: "/* Add new pages import here - Please do not remove this line */",
     to: newImport
   });
 };
